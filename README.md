@@ -10,6 +10,23 @@ https://github.com/JamesNK/Newtonsoft.Json
 
 zip ファイル内の [lib/netstandard2.0] の配下にある Newtonsoft.Json.dllをunity内の[Asserts/Plugins]に入れる
 
+
+# 使い方
+ライブラリのインポート
+
+
+using Newtonsoft.Json; 
+
+jsonファイルの読み込み
+
+
+string inputString = Resources.Load<TextAsset>("ファイル名").ToString();
+  
+  
+ファイルから取得したjsonのデシリアライズ
+  
+  
+InputJson inputJson=  JsonConvert.DeserializeObject<InputJson>(inputString);
 [参考]
 
 JSON.NETでの実装、環境整備について
