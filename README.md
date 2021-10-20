@@ -5,7 +5,7 @@ unity上でのjsonの確認
 
 
 できない場合
-https://github.com/JamesNK/Newtonsoft.Json/releases　
+https://github.com/JamesNK/Newtonsoft.Json
 よりライブラリをダウンロード
 
 zip ファイル内の [lib/netstandard2.0] の配下にある Newtonsoft.Json.dllをunity内の[Asserts/Plugins]に入れる
